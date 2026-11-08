@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RG Score Pro | Main Dashboard</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #100d1c;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    header h1 {
+      color: #c9a5ff;
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #b9adc9;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #211a35;
+      border: 1px solid #59427d;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+    }
+
+    .card h2 {
+      color: #d7baff;
+      margin-top: 0;
+    }
+
+    .card p {
+      color: #c4b8d3;
+      min-height: 40px;
+    }
+
+    .open-btn {
+      display: inline-block;
+      background: #8654c9;
+      color: white;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+
+    .open-btn:hover {
+      background: #a477e8;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #9c8cad;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>RG SCORE PRO</h1>
+      <p>Rhythmic Gymnastics Judging System</p>
+      <p>Main Dashboard | Judge Portal</p>
+    </header>
+
+    <div class="dashboard">
+
+      <div class="card">
+        <h2>DB Judge</h2>
+        <p>Body Difficulties</p>
+        <a class="open-btn" href="db-judge.html">
+          Open DB Judge
+        </a>
+      </div>
+
+      <div class="card">
+        <h2>DA Judge</h2>
+        <p>Apparatus Difficulties</p>
+        <a class="open-btn" href="da-judge.html">
+          Open DA Judge
+        </a>
+      </div>
+
+      <div class="card">
+        <h2>A Judge</h2>
+        <p>Artistry Evaluation</p>
+        <a class="open-btn" href="a-judge.html">
+          Open A Judge
+        </a>
+      </div>
+
+      <div class="card">
+        <h2>E Judge</h2>
+        <p>Execution Evaluation</p>
+        <a class="open-btn" href="e-judge.html">
+          Open E Judge
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>RG Score Pro © 2026</p>
+      <p>Rhythmic Gymnastics Scoring Prototype</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
